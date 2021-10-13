@@ -2,24 +2,31 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 *{
   margin: 0;
-  color: #d9d9d9;
+  color: #ffffff;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+
+.konten-utama{
+  background-image: url(https://source.unsplash.com/tpwBlozbels);
+  background-size: cover;
+  height: 900px;
+  border-style: solid;
+  border-width: medium;
+
+}
 .top-wrapper{
-  position: relative;
-  margin: 40px auto;
+  padding-top: 50px;
   text-align: center;
+  
 }
-.top-wrapper .text{
-  font-size: 2.5rem;
-  font-weight: 600;
-  color: #202020;
+.top-wrapper .judul{
+  font-size: 50px;
+  color: rgba(250, 253, 255, 0.700);
 }
-.top-wrapper .p{
-  font-size: 2.1875rem;
-  font-weight: 600;
-  color: #202020;
+.top-wrapper .deskripsi{
+  font-size: 25px;
+  color: rgba(250, 253, 255, 0.700);
 }
 footer{
   bottom: 0px;
