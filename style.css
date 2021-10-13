@@ -1,16 +1,15 @@
+
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 *{
   margin: 0;
-  padding: 0;
   color: #d9d9d9;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
 .content1{
   position: relative;
-  margin: 130px auto;
+  margin: 40px auto;
   text-align: center;
-  padding: 0 20px;
 }
 .content1 .text{
   font-size: 2.5rem;
@@ -25,7 +24,7 @@
 footer{
   bottom: 0px;
   width: 100%;
-  background: #111;
+  background: rgb(8, 8, 8);
 }
 .main-content{
   display: flex;
@@ -34,6 +33,7 @@ footer{
   flex-basis: 50%;
   padding: 10px 20px;
 }
+
 .box h2{
   font-size: 1.125rem;
   font-weight: 600;
@@ -130,7 +130,7 @@ footer{
 }
 .right form .btn button{
   height: 40px;
-  width: 100%;
+  width: 330px;
   border: none;
   outline: none;
   background: #1910a0;
