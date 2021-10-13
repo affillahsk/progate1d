@@ -6,7 +6,62 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgb(6, 19, 39);
+  position :inherit;
+  top: 0;
+  z-index: 10;
+}
 
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 120px;
+  margin-top: 20px;
+  float: left;
+}
+
+.header-left {
+  float: left;
+  margin-left: 50px;
+}
+
+.header-right {
+  float: right;
+
+}
+
+.menu-navigation {
+  float: left;
+}
+
+.header-left .menu-navigation a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: rgb(255, 255, 255);
+  display: block;
+  float: left;
+  transition: all 0.5s;
+  text-decoration: none;
+}
+
+.header-left .menu-navigation a:hover {
+  background-color: rgba(11, 76, 119, 0.3);
+}
+
+.menu-icon {
+  color: rgb(255, 255, 255);
+  float: right;
+  font-size: 25px;
+  padding: 13px 0;
+  margin-right: 30px;
+  display:none;
+}
 .top-wrapper{
   padding-top: 50px;
   text-align: center;
@@ -205,5 +260,14 @@ footer{
   }
   .main-content .box{
     margin: 5px 0;
+  }
+}
+@media all and (max-width: 670px){
+  .menu-navigation{
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
   }
 }
