@@ -13,6 +13,7 @@ header {
   position :inherit;
   top: 0;
   z-index: 10;
+  font-family:'Montserrat', sans-serif;
 }
 
 .container {
@@ -43,7 +44,7 @@ header {
 .header-left .menu-navigation a {
   line-height: 65px;
   padding: 0 25px;
-  color: rgb(255, 255, 255);
+  color: rgba(238, 248, 252, 0.945);
   display: block;
   float: left;
   transition: all 0.5s;
@@ -54,13 +55,18 @@ header {
   background-color: rgba(11, 76, 119, 0.3);
 }
 
-.menu-icon {
+.menu-icon{
   color: rgb(255, 255, 255);
   float: right;
   font-size: 25px;
-  padding: 13px 0;
-  margin-right: 30px;
+  padding: 21px 0;
   display:none;
+}
+span .menu-icon{
+display:block;
+width: 25px;
+height: 10px;
+background-color:rgb(221, 74, 74);
 }
 .top-wrapper{
   padding-top: 50px;
@@ -261,13 +267,16 @@ footer{
   .main-content .box{
     margin: 5px 0;
   }
+  .header-left{
+    letter-spacing: -1px;
+  }
 }
 @media all and (max-width: 670px){
   .menu-navigation{
     display: none;
   }
-
-  .menu-icon {
-    display: block;
+  .menu-icon{
+    display:block;
+  }
   }
 }
