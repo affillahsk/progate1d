@@ -29,12 +29,12 @@ header {
 
 .header-left {
   float: left;
-  margin-left: 50px;
+  margin-left: 20px;
 }
 
 .header-right {
   float: right;
-
+  margin-right: 20px;
 }
 
 .menu-navigation {
@@ -279,4 +279,3 @@ footer{
     display:block;
   }
   }
-}
