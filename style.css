@@ -29,12 +29,16 @@ header {
 
 .header-left {
   float: left;
+<<<<<<< HEAD
   margin-left: 30px;
+=======
+  margin-left: 20px;
+>>>>>>> 0037b868055c227bd4c087d62c0588e300fddef7
 }
 
 .header-right {
   float: right;
-
+  margin-right: 20px;
 }
 
 .menu-navigation {
@@ -290,4 +294,8 @@ footer{
   .menu-icon{
     display:block;
   }
+<<<<<<< HEAD
 }
+=======
+  }
+>>>>>>> 0037b868055c227bd4c087d62c0588e300fddef7
