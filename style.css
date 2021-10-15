@@ -238,6 +238,33 @@ header {
     font-size: 12px;
     color: #b3aeb5;
   }
+  .message-wrapper {
+  border-bottom: 1px solid #eee;
+padding-top: 50px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.message {
+  padding: 10px 40px;
+  background-color: rgba(59,92,143,255);
+  cursor: pointer;
+  box-shadow: 0 7px #000821;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+.massage h2 {
+  color: #000821;
+  font-size: 24px;
+}
+.massage h3 {
+  color: #000821;
+  font-size: 14px;
+}
 
 footer{
   bottom: 0px;
