@@ -496,3 +496,15 @@ footer{
     height: 800px;
   }
 }
+
+@media screen and (max-width: 330px) {
+  .top-wrapper {
+    height: 900px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .top-wrapper {
+    height: 1000px;
+  }
+}
