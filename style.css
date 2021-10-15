@@ -200,17 +200,44 @@ header {
   transition-timing-function: ease-in ;
   }
 
-.content-wrapper{
-  background-color: rgba(59,92,143,255);
-  height: 50%;
+  .lesson-wrapper {
+    height: 800px;
+    padding-bottom: 80px;
+    background-color: rgba(59,92,143,255);
+    text-align: center;
+  }
   
-
-}
-
-.text{
-  text-align: center;
-  padding-top: 10%;
-}
+  .heading {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #5f5d60;
+  }
+  
+  .heading h1 {
+    font-size: 75px;
+  }
+  
+  .heading h2 {
+    font-size: 30px;
+  }
+  
+  .lesson {
+    float: left;
+    width: 20%;
+  }
+  
+  .lesson-icon {
+    position: relative;
+  }
+  
+  
+  .txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #b3aeb5;
+  }
 
 footer{
   bottom: 0px;
