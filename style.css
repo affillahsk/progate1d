@@ -6,7 +6,6 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-<<<<<<< HEAD
 
 form {
   float: right;
@@ -52,11 +51,6 @@ form {
         font-family:Helvetica Neue;
         font-weight:bold;
 }	  
-=======
-body, html{
-  height: 100%;
-}
->>>>>>> 1bce40a0da90b5dbcc4bff85e9508c000d7ec0c1
 
 header {
   height: 60px;
@@ -118,64 +112,50 @@ header {
 }
 
 .top-wrapper{
-  position: relative;
-  background-image: url(https://source.unsplash.com/iuqmGmst5Po);
+  padding-top: 100px;
+  text-align: center;
+  background-image: url(https://source.unsplash.com/tpwBlozbels);
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100%;
-  filter: brightness(70%);
+  height: 900px;
   
-   
-}
-
-.animated-title{
-  text-align: left;
-  position: absolute;
-  top: 15%;
-  left:5%;
-
-}
-
-.text-top .judul{
-  font-size: 40px;
-  color: rgb(250, 253, 255);
   
 }
-.text-top .judul2{
+.top-wrapper .judul{
+  font-size: 60px;
+  color: rgba(250, 253, 255, 1);
+  
+}
+.top-wrapper .judul2{
   font-size: 25px;
   color: rgba(250, 253, 255, 1);
   padding-bottom: 20px;
 }
-.text-top .deskripsi{
+.top-wrapper .deskripsi{
   font: size 15px;
   color: rgba(250, 253, 255, 1);
   padding-bottom: 40px;
 
 }
-.text-bottom .pembuka{
+.top-wrapper .pembuka{
   font: size 10px;
   color: rgba(250, 253, 255, 1);
 
 }
 
 .button{
-  background-color: rgba(255, 255, 255, 0);
+  background-color: rgba(0, 0, 0, 0.87);
   display: inline-block;
   text-decoration: none;
   padding: 10px 15px;
   cursor: pointer;
   margin: 10px 0;
-  border-radius: 5px;
-  border: 2px solid rgb(255, 255, 255);
+  border-radius: 12px;
   transition: 0.4s;
-  color: white;
-  margin-right:10px;
 }
 
 .button:hover{
   background-color:rgb(0, 0, 0);
-  box-shadow:2px -2px 8px  rgba(255, 255, 255, 0.911);
+  box-shadow:2px -2px 8px  rgba(0,0,0,0.24);
 }
 
 @keyframes showTopText {
@@ -201,18 +181,7 @@ header {
   transform: translate(0, 100%);
   transition-timing-function: ease-in ;
   }
-
-.content-wrapper{
-  background-color: rgba(59,92,143,255);
-  height: 50%;
   
-
-}
-
-.text{
-  text-align: center;
-  padding-top: 10%;
-}
 
 footer{
   bottom: 0px;
