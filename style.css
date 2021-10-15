@@ -10,7 +10,7 @@
 form {
   float: right;
   padding-left: 30px;
-  width:400px;
+  width: 100%;
   
 }
 .search {
@@ -212,8 +212,7 @@ header {
   }
 
   .lesson-wrapper {
-    height: 800px;
-    padding-bottom: 80px;
+    display: flex;
     background-color: rgba(59,92,143,255);
     text-align: center;
   }
@@ -241,6 +240,9 @@ header {
     position: relative;
   }
   
+  .img-mountain {
+    width: 70%;
+  }
   
   .txt-contents {
     width: 80%;
@@ -413,6 +415,12 @@ footer{
 .bottom center a:hover{
   text-decoration: underline;
 }
+
+@media screen and (max-width: 870px) {
+  .header-action {
+    display: none;
+  }
+}
 @media screen and (max-width: 768px) {
   footer{
     position: relative;
@@ -435,7 +443,15 @@ footer{
   .logo {
     margin: 4px;
   }
-
+  .lesson-wrapper{
+    width:100%;
+  }
+  .lesson{
+    width:100%;
+  }
+  .img-mountain {
+    width: 30%;
+  }
   .menu-navigation{
     display: none;
     width: 100%;
@@ -458,5 +474,8 @@ footer{
   }
   .menu-icon{
     display:block;
+  }
+  .button-header{
+    display:none;
   }
 }
