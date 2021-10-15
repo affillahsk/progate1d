@@ -9,7 +9,12 @@
 form {
   float: right;
   padding-left: 30px;
+<<<<<<< HEAD
   width: 400px;
+=======
+  width: 100%;
+  
+>>>>>>> f1b4cfbcfec475c223fa36035a0728b89db78951
 }
 .search {
   padding: 8px 15px;
@@ -211,6 +216,7 @@ header {
   transition-timing-function: ease-in;
 }
 
+<<<<<<< HEAD
 .lesson-wrapper {
   height: 800px;
   padding-bottom: 80px;
@@ -249,6 +255,49 @@ header {
   color: #b3aeb5;
 }
 .message-wrapper {
+=======
+  .lesson-wrapper {
+    display: flex;
+    background-color: rgba(59,92,143,255);
+    text-align: center;
+  }
+  
+  .heading {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #5f5d60;
+  }
+  
+  .heading h1 {
+    font-size: 75px;
+  }
+  
+  .heading h2 {
+    font-size: 30px;
+  }
+  
+  .lesson {
+    float: left;
+    width: 20%;
+  }
+  
+  .lesson-icon {
+    position: relative;
+  }
+  
+  .img-mountain {
+    width: 70%;
+  }
+  
+  .txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #b3aeb5;
+  }
+  .message-wrapper {
+>>>>>>> f1b4cfbcfec475c223fa36035a0728b89db78951
   border-bottom: 1px solid #eee;
   padding-top: 50px;
   padding-bottom: 100px;
@@ -413,6 +462,12 @@ footer {
 .bottom center a:hover {
   text-decoration: underline;
 }
+
+@media screen and (max-width: 870px) {
+  .header-action {
+    display: none;
+  }
+}
 @media screen and (max-width: 768px) {
   footer {
     position: relative;
@@ -435,8 +490,21 @@ footer {
   .logo {
     margin: 4px;
   }
+<<<<<<< HEAD
 
   .menu-navigation {
+=======
+  .lesson-wrapper{
+    width:100%;
+  }
+  .lesson{
+    width:100%;
+  }
+  .img-mountain {
+    width: 30%;
+  }
+  .menu-navigation{
+>>>>>>> f1b4cfbcfec475c223fa36035a0728b89db78951
     display: none;
     width: 100%;
     background-color: rgb(6, 19, 39);
@@ -511,5 +579,8 @@ footer {
 
   .lesson {
     width: 100%;
+  }
+  .button-header{
+    display:none;
   }
 }
