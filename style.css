@@ -6,51 +6,9 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-
-form {
-  float: right;
-  padding-left: 30px;
-  width:400px;
-  
+body, html{
+  height: 100%;
 }
-.search {
-  padding:8px 15px;
-  background:rgba(255, 255, 255, 0.2);
-  border:0px solid #dbdbdb;
-}
-.button {
-  position:relative;
-  padding:6px 15px;
-  left:-8px;
-  border:1px solid #121433;
-  background-color:#121433;
-  color:#fafafa;
-}
-.button:hover  {
-  background-color:#fafafa;
-  color:#133c61;
-}
-      
-::-webkit-input-placeholder { /* For WebKit browsers */
-  color:    #0c0c0c;
-        font-family:Helvetica Neue;
-        font-weight:bold;
-}
-:-moz-placeholder { /* For Mozilla Firefox 4 to 18 */
-  color:    #0c0c0c;
-        font-family:Helvetica Neue;
-        font-weight:bold;
-}
-::-moz-placeholder { /* For Mozilla Firefox 19+ */
-  color:    #0c0c0c;
-        font-family:Helvetica Neue;
-        font-weight:bold;
-}
-:-ms-input-placeholder { /* For Internet Explorer 10+ */
-  color:    #0c0c0c;
-        font-family:Helvetica Neue;
-        font-weight:bold;
-}	  
 
 header {
   height: 60px;
@@ -112,50 +70,64 @@ header {
 }
 
 .top-wrapper{
-  padding-top: 100px;
-  text-align: center;
-  background-image: url(https://source.unsplash.com/tpwBlozbels);
+  position: relative;
+  background-image: url(https://source.unsplash.com/iuqmGmst5Po);
   background-size: cover;
-  height: 900px;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  filter: brightness(70%);
   
+   
+}
+
+.animated-title{
+  text-align: left;
+  position: absolute;
+  top: 15%;
+  left:5%;
+
+}
+
+.text-top .judul{
+  font-size: 40px;
+  color: rgb(250, 253, 255);
   
 }
-.top-wrapper .judul{
-  font-size: 60px;
-  color: rgba(250, 253, 255, 1);
-  
-}
-.top-wrapper .judul2{
+.text-top .judul2{
   font-size: 25px;
   color: rgba(250, 253, 255, 1);
   padding-bottom: 20px;
 }
-.top-wrapper .deskripsi{
+.text-top .deskripsi{
   font: size 15px;
   color: rgba(250, 253, 255, 1);
   padding-bottom: 40px;
 
 }
-.top-wrapper .pembuka{
+.text-bottom .pembuka{
   font: size 10px;
   color: rgba(250, 253, 255, 1);
 
 }
 
 .button{
-  background-color: rgba(0, 0, 0, 0.87);
+  background-color: rgba(255, 255, 255, 0);
   display: inline-block;
   text-decoration: none;
   padding: 10px 15px;
   cursor: pointer;
   margin: 10px 0;
-  border-radius: 12px;
+  border-radius: 5px;
+  border: 2px solid rgb(255, 255, 255);
   transition: 0.4s;
+  color: white;
+  margin-right:10px;
 }
 
 .button:hover{
   background-color:rgb(0, 0, 0);
-  box-shadow:2px -2px 8px  rgba(0,0,0,0.24);
+  box-shadow:2px -2px 8px  rgba(255, 255, 255, 0.911);
 }
 
 @keyframes showTopText {
@@ -181,7 +153,18 @@ header {
   transform: translate(0, 100%);
   transition-timing-function: ease-in ;
   }
+
+.content-wrapper{
+  background-color: rgba(59,92,143,255);
+  height: 50%;
   
+
+}
+
+.text{
+  text-align: center;
+  padding-top: 10%;
+}
 
 footer{
   bottom: 0px;
