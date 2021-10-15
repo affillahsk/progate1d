@@ -15,41 +15,52 @@ form {
 }
 .search {
   padding:8px 15px;
-  background:rgba(255, 255, 255, 0.2);
-  border:0px solid #dbdbdb;
+  background:rgba(6, 19, 39, 0.795);
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  color:white
+  
 }
-.button {
+
+.button-header {
   position:relative;
   padding:6px 15px;
   left:-8px;
   border:1px solid #121433;
-  background-color:#121433;
+  background-color:rgba(6, 19, 39, 0.795);
   color:#fafafa;
+  display: inline-block;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+  border: 2px solid rgb(255, 255, 255);
+  transition: 0.4s;
 }
-.button:hover  {
-  background-color:#fafafa;
-  color:#133c61;
+.button-header:hover  {
+  background-color:rgb(0, 0, 0);
+  box-shadow:2px -2px 8px  rgba(255, 255, 255, 0.911);
 }
       
 ::-webkit-input-placeholder { 
-  color:    #0c0c0c;
-        font-family:Helvetica Neue;
-        font-weight:bold;
+  color:    #ffffff;
+        font-family:'Poppins', sans-serif;
+        font-weight: lighter;
 }
 :-moz-placeholder { 
-  color:    #0c0c0c;
-        font-family:Helvetica Neue;
-        font-weight:bold;
+  color:    #ffffff;
+        font-family:'Poppins', sans-serif;
+        font-weight:lighter;
 }
 ::-moz-placeholder { 
-  color:    #0c0c0c;
-        font-family:Helvetica Neue;
-        font-weight:bold;
+  color:    #ffffff;
+        font-family:'Poppins', sans-serif;
+        font-weight:lighter;
 }
 :-ms-input-placeholder { 
-  color:    #0c0c0c;
-        font-family:Helvetica Neue;
-        font-weight:bold;
+  color:    #ffffff;
+        font-family:'Poppins', sans-serif;
+        font-weight:lighter;
 }	  
 
 body, html{
@@ -157,7 +168,7 @@ header {
 
 }
 
-.button{
+.button-topwr{
   background-color: rgba(255, 255, 255, 0);
   display: inline-block;
   text-decoration: none;
@@ -171,7 +182,7 @@ header {
   margin-right:10px;
 }
 
-.button:hover{
+.button-topwr:hover{
   background-color:rgb(0, 0, 0);
   box-shadow:2px -2px 8px  rgba(255, 255, 255, 0.911);
 }
