@@ -6,6 +6,52 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+
+form {
+  float: right;
+  padding-left: 30px;
+  width:400px;
+  
+}
+.search {
+  padding:8px 15px;
+  background:rgba(255, 255, 255, 0.2);
+  border:0px solid #dbdbdb;
+}
+.button {
+  position:relative;
+  padding:6px 15px;
+  left:-8px;
+  border:1px solid #121433;
+  background-color:#121433;
+  color:#fafafa;
+}
+.button:hover  {
+  background-color:#fafafa;
+  color:#133c61;
+}
+      
+::-webkit-input-placeholder { /* For WebKit browsers */
+  color:    #0c0c0c;
+        font-family:Helvetica Neue;
+        font-weight:bold;
+}
+:-moz-placeholder { /* For Mozilla Firefox 4 to 18 */
+  color:    #0c0c0c;
+        font-family:Helvetica Neue;
+        font-weight:bold;
+}
+::-moz-placeholder { /* For Mozilla Firefox 19+ */
+  color:    #0c0c0c;
+        font-family:Helvetica Neue;
+        font-weight:bold;
+}
+:-ms-input-placeholder { /* For Internet Explorer 10+ */
+  color:    #0c0c0c;
+        font-family:Helvetica Neue;
+        font-weight:bold;
+}	  
+
 header {
   height: 60px;
   width: 100%;
