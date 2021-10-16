@@ -257,7 +257,7 @@ padding-top: 50px;
 }
 
 .message {
-  padding: 10px 40px;
+  padding: 5px 40px;
   background-color: rgba(59,92,143,255);
   cursor: pointer;
   box-shadow: 0 7px #000821;
@@ -275,6 +275,12 @@ padding-top: 50px;
 .massage h3 {
   color: #000821;
   font-size: 14px;
+}
+.massage p{
+  color: #000821;
+  margin-top: 10px;
+  font-size: 14;
+  font-weight: bold;
 }
 
 footer{
